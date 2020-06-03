@@ -10,7 +10,6 @@ import numpy as np
 
 def input_1(filename):
     """ Leitura arquivo input"""
-#    filename=input()
     return np.loadtxt(filename)
 
 
